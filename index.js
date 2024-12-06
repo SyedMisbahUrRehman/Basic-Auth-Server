@@ -37,8 +37,12 @@ const User = mongoose.model("User", userSchema);
 // Routes
 
 // Health check route
-app.get("/mobile-do", (req, res) => {
-  res.send("Yelo mobile!");
+app.get("/", (req, res) => {
+  res.send("Server is Running!");
+});
+// test route
+app.get("/test", (req, res) => {
+  res.send("Testing endpoint!");
 });
 
 // Signup route
