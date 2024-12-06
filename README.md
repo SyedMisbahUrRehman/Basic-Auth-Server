@@ -62,7 +62,7 @@ This is a basic API for user authentication, developed using **Node.js (Express)
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SyedMisbahUrRehman/basic-server.git
+   git clone https://github.com/SyedMisbahUrRehman/Basic-Auth-Server.git
    cd basic-server
    ```
 
